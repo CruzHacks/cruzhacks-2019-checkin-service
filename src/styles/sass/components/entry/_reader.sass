@@ -1,0 +1,36 @@
+.entry
+  min-height: 50vh
+  position: relative
+  display: block
+  align-items: center
+  justify-content: center
+  text-align: center
+  padding: 10rem 1rem
+  &__logo
+    height: 12rem
+    margin-right: 3rem
+    position: absolute
+    cursor: pointer
+    top: 30px
+    left: 30px
+    @include respond(tab-land)
+      top: 20px
+      left: 20px
+      height: 10rem
+  &__qrReader
+    display: block
+    padding: 5rem 0 2.5rem 0
+    max-width: 75%
+    margin: auto
+    &__title
+      display: block
+      color: white
+      font-size: 4rem
+      margin: 2rem
+  &__title
+    font-size: 5.5rem
+    margin-top: 7rem
+    color: white
+    cursor: default
+    @include respond(tab-land)
+      margin-top: 12rem
